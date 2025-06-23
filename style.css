@@ -1,0 +1,43 @@
+ .navbar-expand {
+      background-color: #0e0d0d;
+    }
+
+    .navbar-custom .navbar-brand {
+      color: #f9a825;
+      font-weight: 700;
+      letter-spacing: 2px;
+      font-size: 1.8rem;
+    }
+
+    .navbar-custom .navbar-brand:hover {
+      color: #c17900;
+      text-decoration: none;
+    }
+
+    .navbar-custom .nav-link {
+      color: white;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .navbar-custom .nav-link:hover {
+      color: #f9a825;
+    }
+
+    .btn-cart {
+      background-color: #f9a825;
+      color: #222;
+      font-weight: 700;
+      border-radius: 25px;
+      padding: 8px 20px;
+      transition: background-color 0.3s ease;
+      text-transform: uppercase;
+      box-shadow: 0 2px 6px rgba(249, 168, 37, 0.6);
+      border: none;
+    }
+
+    .btn-cart:hover {
+      background-color: #c17900;
+      color: white;
+      box-shadow: 0 4px 10px rgba(193, 121, 0, 0.8);
+    }
